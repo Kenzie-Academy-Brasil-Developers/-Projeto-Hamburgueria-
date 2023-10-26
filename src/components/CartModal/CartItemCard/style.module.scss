@@ -1,0 +1,33 @@
+.modalList{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    width: auto;
+    height: auto;
+  
+}
+.modalContent{
+    display: flex;
+    
+}
+.modalImg{
+    border-radius: 6px;
+    background:var(--grey-100);
+}
+.modalBtnDelete{
+   background-color: var(--grey-6);
+    border: none;
+    color: var(--grey-8);
+}
+.modalValue{
+    color:var(--color-primary) ;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 5px;
+}

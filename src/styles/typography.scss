@@ -1,0 +1,55 @@
+.name{
+    font-family:var(--font-primary) ;
+    color: var( --grey-5);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+    &.category{
+        color: var(--grey-300);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px; 
+    }
+    &.value{
+        color: var(--color-primary);
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+    }
+}
+.modalText{
+    color: var(--grey-6);
+    font-family: var(--font-primary);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0px; 
+
+    &.modalname{
+    color: var(--grey-5);
+
+    &.priceModal{
+    color: var(--color-primary);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px; 
+    }
+    &.description{
+    color: var(--grey-600);
+    }
+    &.valueModal{
+    color: var(--grey-300);
+    }
+    &.removeAll{
+    color: var(--grey-6);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;   
+    }
+}
+
+}
