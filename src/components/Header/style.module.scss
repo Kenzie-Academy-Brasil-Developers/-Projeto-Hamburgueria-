@@ -17,7 +17,7 @@
     display: flex;
     margin-right: 100px;
     flex-direction: row-reverse;
-    gap: 60px;
+    
     
 }
 .btnCart{
@@ -29,7 +29,7 @@
     background: var(--grey-0);
     flex-direction: row;
     align-items: center;
-
+    justify-content: center;
 }
 .btnSearch{
     display: flex;
@@ -68,16 +68,36 @@
 
 @media (max-width: 414px){
 .header{
-    width: 414px;
     height: 76px;
-    flex-shrink: 0;
-    background: var(--grey-0);
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 .logo{
+    width: 100px;
+    margin-left: 10px;
     
-    width: 150px;
-    height: 22.852px;
-    flex-shrink: 0;
+}
+.input{
+    width: 100px;
+}
+.btnHeader {
+    margin-right: 20px;
+    gap: 10px; 
+}
+.btnCart {
+    width: 44px;
+}
+.btnCount {
+    top: -2px; 
+    right: 8px; 
+}
+.btnSearch{
+    width: 100%;
+}
+.btnCount{
+    top: -9px;
+    right: 1px;
 }
 
 }

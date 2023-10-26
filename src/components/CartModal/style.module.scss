@@ -73,3 +73,25 @@ img{
 .heading{
     margin-left: 20px;
 }
+@media (max-width: 414px){
+.modalBox{
+    width: 397px;
+    height: 408px;
+    border-radius: 8px 8px 0px 0px;
+}
+.modalHeader{
+    width: 397px;
+    height: 57px;
+    border-radius: 8px 8px 0px 0px;
+}
+.modalBtnRemove{
+    display: flex;
+    width: 368px;
+    height: 60px;
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+}
