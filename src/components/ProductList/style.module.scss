@@ -1,12 +1,11 @@
 .cardList {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; 
-  width: 100%; 
-  padding-bottom: 0px;
-  justify-content: center;
   gap: 20px;
-  
+  list-style: none;
+  padding-left: 90px;
+  flex-direction: row;
+  flex-wrap: wrap;
+ 
 }
 @media (max-width:414px){
   .cardList{
@@ -16,5 +15,9 @@
     width: 414px;
     flex-wrap: nowrap;
     justify-content: space-between;
+    padding-left: 10px;
+  }
+  .cardList::-webkit-scrollbar {
+    width: 0 !important; 
   }
 }
